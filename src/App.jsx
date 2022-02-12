@@ -7,7 +7,7 @@ import './App.css';
 function App() {
     useEffect(() => {
         document.body.style = 'background: rgb(84,204,162); background: linear-gradient(90deg, rgba(84,204,162,1) 0%, rgba(84,172,167,1) 100%);'
-    }, [])
+    }, []);
     const [timersOn, setTimersOn] = useState(false);
     return(
         <div>
