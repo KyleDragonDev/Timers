@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import PlayerTimer from "./Timers/PlayerTimer";
 import GameTimer from "./Timers/GameTimer";
 import GlobalTimer from "./Timers/GlobalTimer";
+import { noViciousTimes, withViciousTimes } from './mobsTimes';
 import './App.css';
 
 function App() {
@@ -9,9 +10,21 @@ function App() {
         document.body.style = 'background: rgb(84,204,162); background: linear-gradient(90deg, rgba(84,204,162,1) 0%, rgba(84,172,167,1) 100%);'
     }, []);
     const [timersOn, setTimersOn] = useState(false);
+    const [mobsTimes, setMobsTimes] = useState(localStorage.getItem('gifted-vicious') === 'true' ? withViciousTimes : noViciousTimes);
+    const switchMobsTimes = (e) => {
+        const timesToUse = e.target.checked ? withViciousTimes : noViciousTimes;
+        localStorage.setItem('gifted-vicious', e.target.checked);
+        setMobsTimes(timesToUse);
+    }
     return(
         <div>
-            <button id='active-btn' onClick={() => setTimersOn(!timersOn)} >{timersOn ? "I'm out" : "I'm back!"}<span className='active-btn-text'>Start/stop wealth clock and gingerbread house</span></button>
+            <div className='head-controllers'>
+                <button id='active-btn' onClick={() => setTimersOn(!timersOn)} >{timersOn ? "I'm out" : "I'm back!"}<span className='active-btn-text'>Start/stop wealth clock and gingerbread house</span></button>
+                <span className='vicious-selector'>
+                    <input type='checkbox' id='vicious-input' onChange={switchMobsTimes} checked={localStorage.getItem('gifted-vicious') === 'true'} />
+                    <label htmlFor='vicious-input' className='vicious-input-title'>Gifted Vicious?</label>
+                </span>
+            </div>
             <div className='category-titles'><strong>Christmas</strong></div>
             <div className='categories'>
                 <PlayerTimer name={'Gingerbread house'} timersOn={timersOn} startingTime={7200} />
@@ -70,10 +83,10 @@ function App() {
                 <div>
                     <div className='category-titles'><strong>Mobs</strong></div>
                     <div className='categories'>
-                        <GameTimer name={'Spider'} startingTime={1800} />
-                        <GameTimer name={'Werewolf'} startingTime={3600} />
-                        <GameTimer name={'King Beetle'} startingTime={86400} />
-                        <GameTimer name={'Commando Chick'} startingTime={1800} />
+                        <GameTimer name={'Spider'} startingTime={mobsTimes['spider']} />
+                        <GameTimer name={'Werewolf'} startingTime={mobsTimes['werewolf']} />
+                        <GameTimer name={'King Beetle'} startingTime={mobsTimes['king-beetle']} />
+                        <GameTimer name={'Commando Chick'} startingTime={mobsTimes['commando-chick']} />
                     </div>
                 </div>
             </div>

@@ -83,3 +83,14 @@
 .side-container {
     margin-right: 10px;
 }
+
+.head-controllers {
+    display: flex;
+}
+.head-controllers .vicious-input-title {
+    font-size: 130%;
+}
+
+.vicious-selector {
+    margin: auto;
+}
