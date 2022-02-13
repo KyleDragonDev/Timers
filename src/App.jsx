@@ -23,7 +23,7 @@ function App() {
                 <GameTimer name={'Samovar'} startingTime={21600} />
                 <GameTimer name={'Honeyday Candles'} startingTime={14400} />
                 <GameTimer name={"Gander at Onett's Lid Art"} startingTime={28800} />
-                <GameTimer name={'Snow machine'} startingTime={72000} />
+                <GameTimer name={'Snow machine'} startingTime={7200} />
                 <GameTimer name={'Winter Memory Match'} startingTime={14400} />
             </div>
             <div className='category-titles'><strong>Dispensers</strong></div>
@@ -72,7 +72,7 @@ function App() {
                     <div className='categories'>
                         <GameTimer name={'Spider'} startingTime={1800} />
                         <GameTimer name={'Werewolf'} startingTime={3600} />
-                        <GameTimer name={'King Beetle'} startingTime={28800} />
+                        <GameTimer name={'King Beetle'} startingTime={86400} />
                         <GameTimer name={'Commando Chick'} startingTime={1800} />
                     </div>
                 </div>
