@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Timers/static/css/main.0d5703bc.css",
+    "main.css": "/Timers/static/css/main.b5a088d3.css",
     "main.js": "/Timers/static/js/main.ac2694cb.js",
     "static/media/Werewolf.png": "/Timers/static/media/Werewolf.82cab80e1bc32d906053.png",
     "static/media/Commandochick.png": "/Timers/static/media/Commandochick.6e0146a5e8c65f9f357a.png",
@@ -34,11 +34,11 @@
     "static/media/MemoryMatch.png": "/Timers/static/media/MemoryMatch.0cfc10413b50b0f4da52.png",
     "static/media/Glue_Dispenser.png": "/Timers/static/media/Glue_Dispenser.dbf06f293450d616655d.png",
     "index.html": "/Timers/index.html",
-    "main.0d5703bc.css.map": "/Timers/static/css/main.0d5703bc.css.map",
+    "main.b5a088d3.css.map": "/Timers/static/css/main.b5a088d3.css.map",
     "main.ac2694cb.js.map": "/Timers/static/js/main.ac2694cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d5703bc.css",
+    "static/css/main.b5a088d3.css",
     "static/js/main.ac2694cb.js"
   ]
 }
