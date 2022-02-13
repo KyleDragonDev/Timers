@@ -42,6 +42,7 @@
 }
 #active-btn:hover {
     cursor: pointer;
+    background-color: #D1D1D1;
 }
 .active-btn-text {
     visibility: hidden;
