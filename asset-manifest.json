@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Timers/static/css/main.b5a088d3.css",
-    "main.js": "/Timers/static/js/main.ac2694cb.js",
+    "main.css": "/Timers/static/css/main.283225ba.css",
+    "main.js": "/Timers/static/js/main.d111e15d.js",
     "static/media/Werewolf.png": "/Timers/static/media/Werewolf.82cab80e1bc32d906053.png",
     "static/media/Commandochick.png": "/Timers/static/media/Commandochick.6e0146a5e8c65f9f357a.png",
     "static/media/Beesmas_Feast.png": "/Timers/static/media/Beesmas_Feast.eebc932d76defca6cf01.png",
@@ -19,6 +19,7 @@
     "static/media/King_Beetle.png": "/Timers/static/media/King_Beetle.ed2ff5f1c71ff32f65cf.png",
     "static/media/Samovar.png": "/Timers/static/media/Samovar.188ceaa79a5dbd3381f1.png",
     "static/media/Gingerbread_House.png": "/Timers/static/media/Gingerbread_House.f3a2979a435bf8c491fd.png",
+    "static/media/Stickbug.png": "/Timers/static/media/Stickbug.aaced6099afe78c76212.png",
     "static/media/CoconutDispenser.png": "/Timers/static/media/CoconutDispenser.6c803820fc3f5ab5323f.png",
     "static/media/ExtremeMemory.png": "/Timers/static/media/ExtremeMemory.b1e15068e77e68a705fa.png",
     "static/media/Winter_Memory_Match.png": "/Timers/static/media/Winter_Memory_Match.7c33a379e26205b81bc3.png",
@@ -26,19 +27,23 @@
     "static/media/Stockings.png": "/Timers/static/media/Stockings.ff741a29542bfd435248.png",
     "static/media/Honey_Wreath.png": "/Timers/static/media/Honey_Wreath.0bb7da17fe81037f9e03.png",
     "static/media/MythicMeteorSummoner.png": "/Timers/static/media/MythicMeteorSummoner.ff88cdf118b8a980502b.png",
+    "static/media/CoconutCrab.png": "/Timers/static/media/CoconutCrab.4382793ea9ec6eff7a59.png",
     "static/media/Snow_Machine.png": "/Timers/static/media/Snow_Machine.e160713d2a4153212431.png",
     "static/media/Blueberry_Dispenser.png": "/Timers/static/media/Blueberry_Dispenser.c2fd5ee2c33466d7e0dc.png",
+    "static/media/Scorpion.png": "/Timers/static/media/Scorpion.7c889f112216d89f8c64.png",
+    "static/media/Stump-snail.png": "/Timers/static/media/Stump-snail.16c356887da1b738c366.png",
     "static/media/SnowBear.png": "/Timers/static/media/SnowBear.002fe9a06db579e5c464.png",
     "static/media/NightMemoryMatch.png": "/Timers/static/media/NightMemoryMatch.c9dc6a7244be96071795.png",
     "static/media/MegaMemoryMatch.png": "/Timers/static/media/MegaMemoryMatch.07ba207f84feb660790c.png",
     "static/media/MemoryMatch.png": "/Timers/static/media/MemoryMatch.0cfc10413b50b0f4da52.png",
     "static/media/Glue_Dispenser.png": "/Timers/static/media/Glue_Dispenser.dbf06f293450d616655d.png",
+    "static/media/TunnelBear.png": "/Timers/static/media/TunnelBear.92c280926ce28f3dce07.png",
     "index.html": "/Timers/index.html",
-    "main.b5a088d3.css.map": "/Timers/static/css/main.b5a088d3.css.map",
-    "main.ac2694cb.js.map": "/Timers/static/js/main.ac2694cb.js.map"
+    "main.283225ba.css.map": "/Timers/static/css/main.283225ba.css.map",
+    "main.d111e15d.js.map": "/Timers/static/js/main.d111e15d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5a088d3.css",
-    "static/js/main.ac2694cb.js"
+    "static/css/main.283225ba.css",
+    "static/js/main.d111e15d.js"
   ]
 }
