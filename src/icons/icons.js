@@ -33,6 +33,11 @@ import Spider from './Spider.png';
 import Werewolf from './Werewolf.png';
 import KingBeetle from './King_Beetle.png';
 import CommandoChick from './Commandochick.png';
+import CoconutCrab from './CoconutCrab.png';
+import Scorpion from './Scorpion.png';
+import Stickbug from './Stickbug.png';
+import StumpSnail from './Stump-snail.png';
+import TunnelBear from './TunnelBear.png';
 
 const icons = {
     'Gingerbread house': GingerbreadHouse,
@@ -69,6 +74,11 @@ const icons = {
     'Spider': Spider,
     'Werewolf': Werewolf,
     'King Beetle': KingBeetle,
-    'Commando Chick': CommandoChick
+    'Commando Chick': CommandoChick,
+    'Coconut crab': CoconutCrab,
+    'Scorpion': Scorpion,
+    'Stickbug': Stickbug,
+    'Stump Snail': StumpSnail,
+    'Tunnel Bear': TunnelBear
 }
 export default icons;

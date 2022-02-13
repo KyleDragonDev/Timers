@@ -83,14 +83,19 @@ function App() {
                 <div>
                     <div className='category-titles'><strong>Mobs</strong></div>
                     <div className='categories'>
+                        <GameTimer name={'King Beetle'} startingTime={mobsTimes['king-beetle']} />
+                        <GameTimer name={'Tunnel Bear'} startingTime={mobsTimes['tunnel-bear']} />
+                        <GameTimer name={'Coconut crab'} startingTime={mobsTimes['coconut-crab']} />
                         <GameTimer name={'Spider'} startingTime={mobsTimes['spider']} />
                         <GameTimer name={'Werewolf'} startingTime={mobsTimes['werewolf']} />
-                        <GameTimer name={'King Beetle'} startingTime={mobsTimes['king-beetle']} />
+                        <GameTimer name={'Scorpion'} startingTime={mobsTimes['scorpion']} />
+                        <GameTimer name={'Stump Snail'} startingTime={mobsTimes['snail']} />
                         <GameTimer name={'Commando Chick'} startingTime={mobsTimes['commando-chick']} />
+                        <GameTimer name={'Stickbug'} startingTime={129600} />
                     </div>
                 </div>
             </div>
-            <h2>The site is in very early stages. If you find any bugs or just want to give feedback, DM me on discord!</h2>
+            <h2>The site is in very early stages. If you find any bugs or just want to give feedback, DM me!</h2>
         </div>
     )
 }
